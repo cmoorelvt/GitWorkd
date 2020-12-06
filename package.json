@@ -1,0 +1,33 @@
+{
+    "name": "gitworkd",
+    "version": "1.0.0",
+    "description": "university of richmond project two; full-stack",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "build": "node resetDb.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eaclumpkens/gitWorkd.git"
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "author": "eaclumpkens cmoorelvt twkirkpatrick nickelme",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eaclumpkens/gitWorkd/issues"
+    },
+    "homepage": "https://github.com/eaclumpkens/gitWorkd#readme",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mysql2": "^2.2.5",
+        "sequelize": "^4.44.4",
+        "uuid": "^8.3.1"
+    }
+}
